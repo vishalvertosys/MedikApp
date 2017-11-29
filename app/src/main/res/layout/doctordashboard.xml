@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:weightSum="10"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="6"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/usericon"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jack Frost"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/phonemo"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 502-497-52"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/usericon"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Louis Street ,Block A,LA"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/accesstime"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:45 pm"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Accept"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:background="@color/green"
+                android:id="@+id/button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Reject"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:background="@color/green"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="6"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/usericon"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jack Frost"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/phonemo"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+1 502-497-52"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/usericon"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Louis Street ,Block A,LA"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:src="@drawable/accesstime"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15:45 pm"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Accept"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:background="@color/green"/>
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Reject"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:background="@color/green"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

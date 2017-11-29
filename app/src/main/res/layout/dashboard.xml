@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:weightSum="10">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="vertical"
+    android:layout_weight="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jack Frost"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1 502-497-52"
+        android:textSize="18sp"
+
+
+
+
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Louis Street ,Block A,LA"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15:45 pm"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/black"
+        />
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:src="@drawable/accept"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20sp"
+        android:src="@drawable/reject"/>
+</LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jack Frost"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+1 502-497-52"
+            android:textSize="18sp"
+
+
+
+
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Louis Street ,Block A,LA"
+            android:textSize="18sp"
+
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15:45 pm"
+            android:textSize="18sp"
+
+            android:textColor="@android:color/black"
+            />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/accept"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/reject"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jack Frost"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+1 502-497-52"
+            android:textSize="18sp"
+
+
+
+
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Louis Street ,Block A,LA"
+            android:textSize="18sp"
+
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15:45 pm"
+            android:textSize="18sp"
+
+            android:textColor="@android:color/black"
+            />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/accept"/>
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20sp"
+                android:src="@drawable/reject"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
